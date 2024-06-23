@@ -104,7 +104,7 @@ section{
 .home .home-content .text-3{
     font-size: 28px;
 }
-.home-content button{
+button{
     display: inline-block;
     background: #259634;
     color: #fff;
@@ -117,7 +117,7 @@ section{
     border: 2px solid#259634;
     transition: all 0.3s ease;
 }
-.home-content button:hover{
+button:hover{
     color:#259634;
     background: none;
 }
@@ -160,4 +160,56 @@ section{
 }
 .contact-us .icons a{
     color: #fff;
+}
+
+/* About */
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.about{
+    background: #023127;
+    color: #fff;
+}
+.text-p1{
+    text-align: center;
+}
+p{
+    color: #777;
+}
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left{
+    height: 400px;
+    width: 400px;
+}
+.about .about-content .left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right span{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right p{
+    text-align: justify;
+    color: #999;
 }
