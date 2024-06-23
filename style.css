@@ -121,3 +121,43 @@ section{
     color:#259634;
     background: none;
 }
+
+/* Contact me page */
+.contact-me{
+    background: #023127;
+    height: 100vh;
+    width: 100%;
+}
+.contact-me .title{
+    border-bottom: 0.1rem solid #a19f9f;
+    width: 175px;
+    margin: auto;
+    margin-top: 8rem;
+    color: #fff;
+}
+.contact-us{
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+}
+.contact-us .content{
+    margin-top: 2rem;
+}
+.contact-us .content span{
+    font-weight: bold;
+    font-size: 30px;
+    color: #f3e2e2;
+} 
+.contact-us .content p{
+    width: 600px;
+    color: #f3e2e2;
+    font-size: 18px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.contact-us .icons{
+    border-top: 0.1rem solid #a19f9f;
+}
+.contact-us .icons a{
+    color: #fff;
+}
