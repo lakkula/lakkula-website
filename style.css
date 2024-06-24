@@ -184,6 +184,7 @@ section .title{
 }
 .text-p1{
     text-align: center;
+    margin: 10px auto;
 }
 p{
     color: #777;
@@ -212,4 +213,46 @@ p{
 .about .about-content .right p{
     text-align: justify;
     color: #999;
+}
+
+/* Services */
+.ser-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.services, .teams{
+    color: #fff;
+    background: #022520;
+}
+.services .title::before, .teams .title::before{
+    background: #fff;
+}
+.services .ser-content .card{
+    width: calc(33% - 20px);
+    background: #1a2c29;
+    text-align: center;
+    border-radius: 8px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .ser-content .card:hover{
+    background: #114618;
+}
+.services .ser-content .box{
+    transition: all 0.3s ease;
+}
+.services .ser-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .ser-content .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.services .ser-content i{
+    color: #fff;
+    font-size: 25px;
 }
