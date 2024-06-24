@@ -256,3 +256,52 @@ p{
     color: #fff;
     font-size: 25px;
 }
+
+/* Skills */
+.skill{
+    background: #023127;
+}
+.article-container i{
+    cursor: pointer;
+    height: 2rem;
+}
+.about-container{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: flex;
+}
+.details-container{
+    padding: 1.5rem;
+    flex: 1;
+    background: #fff;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+}
+.sub-title{
+    color: rgb(85, 85, 85);
+    padding-bottom: 30px;
+    text-align: center;
+}
+.experience-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.article-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+article{
+    display: flex;
+    width: 10rem;
+    gap: 0.5rem;
+}
+.skill .title{
+    color: #fff;
+}
